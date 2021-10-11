@@ -38,7 +38,6 @@ pkg load symbolic
 syms g
 disp ('|g-3| = 2');
 solve (abs (g - 3) > 2)
-
 syms g
 f = g + 1
 subplot (3,3,3);
