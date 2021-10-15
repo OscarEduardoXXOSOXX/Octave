@@ -26,3 +26,4 @@
  xlabel(['Min x= ' num2str(rest)]);
 % Etiqueta para y 
  ylabel(['Min y= ' num2str( Fh(rest) )]); 
+
