@@ -1,11 +1,11 @@
-% Title		    :Funcion minimo de cable usado
+% Title		     :Funcion minimo de cable usado
 % Description	:Script para graficar el minimo de cable usado
-% Author	    :Bryan Alejandro Martinez López, Oscar Eduardo Mendoza Alcantara, Gabriel Hernandez Cuadra 
-% Date		    :20211014
+% Author	     :Bryan Alejandro Martinez López, Oscar Eduardo Mendoza Alcantara, Gabriel Hernandez Cuadra 
+% Date		      :20211014
 % Version	    :1
-% Usage		    :octave> /path/
+% Usage		     :octave> /path/
 %             :octave>>ScriptPostes
-%		          :Requiere aplicacion octave para usar su linea de comandos 
+%		           :Requiere aplicacion octave para usar su linea de comandos 
 
 % limpiar variable 
  clear 
