@@ -21,7 +21,7 @@
  y= sqrt(10^2 + x.^2) + sqrt(15^2 + (20 - x).^2);
 
 % Funcion para determinar valor minimo
- rest= fminbnd(Lx,-20,20);
+ rest= fminbnd(Lx,-200,200);
 
 % Dibujar h,y 
  plot (x,y);
