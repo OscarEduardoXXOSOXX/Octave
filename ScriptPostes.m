@@ -15,10 +15,10 @@
  x= -200:0.1:200;
 
 % Valor de la funcion 
- Lx= @(x) sqrt(10^2 + x.^2) + sqrt(15^2 + (20 - x)^2);
+ Lx= @(x) sqrt(10^2 + x.^2) + sqrt(15^2 + (20 - x).^2);
 
 % Funcion a plotear  
- y= sqrt(10^2 + x.^2) + sqrt(15^2 - 40*x + x.^2);
+ y= sqrt(10^2 + x.^2) + sqrt(15^2 + (20 - x).^2);
 
 % Funcion para determinar valor minimo
  rest= fminbnd(Lx,-20,20);
